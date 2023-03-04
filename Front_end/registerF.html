@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register</title>
+  </head>
+  <body style= "background-color: #DBE2EF;">
+    <div style="text-align: center;" >
+      <h1 style="color: #112D4E;" >Register Page</h1>
+
+      <form action="/register" method="post">
+        <label><h2 style="color: #3F72AF;">Enter Name</h2></label>
+        <input type="text" name="name" placeholder="Name" required /><br />
+        <label><h2 style="color: #3F72AF;">Enter Email</h2></label>
+        <input type="email" name="email" placeholder="Email" required /><br />
+        <label><h2 style="color: #3F72AF;">Enter Password</h2></label>
+        <input
+          type="password"
+          name="password"
+          placeholder="Password"
+          required
+        /><br /><br />
+        <!-- <input type="username" name="username" placeholder="Username" required /> -->
+        <input type="submit" value="Register as an User" style="color: #fc5185;" /><br /><br />
+
+        <div ">
+
+            <span style="cursor:pointer;"><a href="/login" style="all: unset ;" ><h2 style="color: #11999E;">Already have an account ?</h2></a></span>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
